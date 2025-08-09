@@ -1,0 +1,51 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Logs
+logs/
+*.log
+
+# Databases (paper trading DB)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files (keep only the example)
+.env
+.env.*
+!.env.example
+
+# Build / packaging junk
+dist/
+build/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.pid
+
+# Local bundles
+github_bundle/
+github_bundle.zip
