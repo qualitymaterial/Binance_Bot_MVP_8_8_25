@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+pip-wheel-metadata/
+.venv/
+venv/
+ENV/
+env/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Local runtime files ---
+.traces/
+logs/
+*.log
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- SQLite DBs ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Docker ---
+*.pid
